@@ -1,6 +1,95 @@
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero h2 {
+    font-size: 10px;
+  }
+  .mg-icon {
+    font-family: tuppence, serif;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .mg-icon {
+    font-family: tuppence, serif;
+    font-size: 108px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  h1 {
+    font-size: 78px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+}
+
 h1 {
   font-family: tuppence, serif;
 }
 h2 {
   font-family: commuters-sans, serif;
+}
+p {
+  font-family: commuters-sans, serif;
+}
+.hero p {
+  margin-top: 4rem;
+}
+.hero {
+  background: #ede574; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e1f5c4,
+    #ede574
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e1f5c4,
+    #ede574
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 270px 20px;
+  text-align: center;
+
+  width: auto;
+}
+
+.navbar-light .navbar-toggler {
+  color: black;
+  border-color: transparent !important;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  font-family: tuppence, serif;
+  color: black;
+}
+.offcanvas-header {
+  background-color: #000;
+  color: white;
+}
+.offcanvas-body {
+  background-color: #000;
+}
+.nav-link {
+  color: white !important;
 }
